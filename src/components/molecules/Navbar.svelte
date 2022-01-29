@@ -3,15 +3,20 @@
 		class="collapse navbar-collapse container-fluid w-full flex flex-wrap items-center justify-between px-6">
 		<img class="w-6" src="/assets/images/logo.png" alt="logo" />
 		<div class="flex-grow items-center md:mt-1">
-			<a class="text-gray-100 pl-5 text-xs md:text-base" href="/"
-				>MinecraftTower</a>
+			<a
+				class="hidden sm:inline text-gray-100 pl-5 text-xs md:text-base"
+				href="/">
+				MinecraftTower
+			</a>
 		</div>
 		<div class="flex items-center">
-			<a
-				class="opacity-70 hover:opacity-80 focus:opacity-80"
-				href="//github.com/minetower">
-				<img src="/assets/images/github-square.svg" alt="github" />
-			</a>
+			<div class="bg-white rounded-sm p-px">
+				<a
+					class="opacity-70 hover:opacity-80 focus:opacity-80"
+					href="//github.com/minetower">
+					<img src="/assets/images/github-square.svg" alt="github" />
+				</a>
+			</div>
 		</div>
 	</div>
 </nav>
@@ -20,6 +25,6 @@
 	nav {
 		font-family: 'PressStart2P';
 		background: url(/assets/images/grass-top.png) repeat-x;
-		background-size: 18em 100%;
+		background-size: 12em 100%;
 	}
 </style>
