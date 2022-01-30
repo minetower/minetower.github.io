@@ -3,5 +3,5 @@
 	import PagesList from 'src/components/organisms/PagesList.svelte'
 </script>
 
-<Navbar title="MinecraftTower" />
+<Navbar title="MinecraftTower" small_title="McTower" />
 <PagesList />
