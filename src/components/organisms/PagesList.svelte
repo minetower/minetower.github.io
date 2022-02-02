@@ -17,7 +17,7 @@
 	<RoundedBox color="bg-slate-700">
 		{#each pages as page}
 			<a
-				class="text-blue-300 hover:text-blue-200 hover:underline"
+				class="text-xl text-blue-300 hover:text-blue-200 hover:underline"
 				href={page.link}>
 				{page.name}
 			</a>
