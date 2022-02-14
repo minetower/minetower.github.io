@@ -38,7 +38,6 @@ export default {
 	optimize: {
 		// bundle: true,
 		minify: true,
-		sourcemap: false,
 	},
 	devOptions: {
 		open: 'none',
