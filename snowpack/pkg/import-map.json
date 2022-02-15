@@ -1,0 +1,6 @@
+{
+  "imports": {
+    "@minetower/ui-components": "./@minetower/ui-components.js",
+    "svelte/internal": "./svelte/internal.js"
+  }
+}
