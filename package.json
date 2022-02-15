@@ -15,7 +15,7 @@
     "format:check:prettier": "prettier --check --plugin-search-dir=. './**/*.{js,mjs,svelte}'"
   },
   "devDependencies": {
-    "@minetower/ui-components": "git+https://github.com/minetower/ui-components.git",
+    "@minetower/ui-components": "^1.0.0",
     "@snowpack/app-scripts-svelte": "^2.0.1",
     "@snowpack/plugin-dotenv": "^2.2.0",
     "@snowpack/plugin-postcss": "^1.4.3",
